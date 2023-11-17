@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
 .App {
   text-align: center;
 }
@@ -36,3 +38,70 @@
     transform: rotate(360deg);
   }
 }
+
+/* create new blog form */
+.App {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+.App label {
+  text-align: left;
+  display: block;
+}
+.App h2 {
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 30px;
+}
+.App input, .App textarea, .App select {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+.App button {
+  background: #f1356d;
+  color: #fff;
+  border: 0;
+  margin-top: 18%;
+  margin-left: 5%;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.App h3 {
+  color: #cc0000
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 1rem;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  border: 1px solid #ffffff;
+  text-align: left;
+  padding: 8px;
+  font-size: 32px;
+}
+
+th {
+  background-color: rgb(117, 201, 250);
+}
+
+td {
+  background-color: rgb(205, 235, 253);
+}
+
